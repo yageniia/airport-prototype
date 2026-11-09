@@ -7,8 +7,8 @@
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <title>Аэропорт — прототип</title>
     <meta name="description" content="Интерактивный прототип очереди и быстрой подачи в аэропорту.">
-    <script type="module" crossorigin src="/airport-prototype/assets/preview-X8QLbVpz.js"></script>
-    <link rel="stylesheet" crossorigin href="/airport-prototype/assets/preview-DgPyVkvo.css">
+    <script type="module" crossorigin src="/airport-prototype/assets/preview-CwXI_-H4.js"></script>
+    <link rel="stylesheet" crossorigin href="/airport-prototype/assets/preview-CWn1lz2k.css">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
@@ -259,7 +259,7 @@
   </span>
 </div>
 
-          <section class="airport-flow" data-airport-flow data-airport-wait-minutes="35" aria-label="Карта заказов рядом с аэропортом">
+          <section class="airport-flow" data-airport-flow data-airport-wait-minutes="35" aria-label="Карта заказов рядом с аэропортом" data-airport-city="spb" data-airport-city-locked="true">
             <div class="airport-flow__map" data-airport-map aria-label="Интерактивная карта района аэропорта Домодедово"></div>
             <button class="airport-flow__recenter" type="button" data-airport-recenter aria-label="Вернуться к своей позиции"><span aria-hidden="true"></span></button>
             <section class="airport-flow__trip-overview airport-flow__initial-overview" aria-label="Картина дня">
@@ -299,7 +299,7 @@
                 </div>
                 <div class="airport-flow__trip-route">
                   <button class="airport-flow__trip-card-action" type="button" data-airport-route-details aria-label="Открыть детали поездки в Домодедово"></button>
-                  <span class="slot airport-flow__trip-slot"><span class="slot__lead"><a class="airport-flow__trip-route-icon" href="https://m.dme.ru/passengers/flight/live-board/" target="_blank" rel="noopener" data-airport-flight-board aria-label="Открыть онлайн-табло Домодедово в новой вкладке"><img src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='20'%20height='19.9535'%20viewBox='0%200%2020%2019.9535'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Airplane_filled'%3e%3cpath%20d='M19.8846%200.115357C19.7089%20-0.060368%2019.1817%20-0.0326219%2018.4973%200.180098C17.1083%200.636037%2015.8419%201.35824%2014.7972%202.38081L9.24795%207.93001C7.85777%209.29222%206.98607%2010.5041%206.31091%2011.8671L2.30431%2011.2947C1.72714%2011.2123%201.14487%2011.4068%200.733117%2011.8196L0%2012.5545L4.62434%2015.3292L7.39894%2019.9535L8.13411%2019.2165C8.5447%2018.8048%208.73787%2018.2241%208.65565%2017.6486L8.08279%2013.6386C9.3123%2013.0032%2010.4265%2012.2146%2011.6719%2011.0416L15.7227%2019.9535L16.4761%2019.1982C16.8764%2018.7969%2017.0706%2018.2342%2017.0031%2017.6714L15.7227%207.00535L15.7205%207.00672L17.5718%205.15541C18.5943%204.11064%2019.364%202.89166%2019.8199%201.50266C20.0326%200.818256%2020.0604%200.291082%2019.8846%200.115357Z'%20fill='white'/%3e%3cpath%20d='M0.745331%203.48353C1.15019%203.07765%201.72035%202.88243%202.28902%202.95498L11.2741%204.10126C10.006%205.22215%208.83061%206.44388%207.75964%207.75449L0%204.23074L0.745331%203.48353Z'%20fill='white'/%3e%3c/g%3e%3c/svg%3e" alt=""></a></span><span class="slot__bodies"><span class="slot__body slot__body--start airport-flow__trip-route-body"><strong>Домодедово · <span data-airport-route-summary data-airport-trip-route-summary>21 мин · 18,1 км</span></strong><span class="airport-flow__trip-route-track" aria-hidden="true"><span class="airport-flow__trip-route-track-bar"><i></i><i></i><i></i><i></i><i></i><i></i></span><img class="airport-flow__trip-route-driver" src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='23.6708'%20height='23.6708'%20viewBox='0%200%2023.6708%2023.6708'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='%20'%3e%3cg%20id='Track'%3e%3cpath%20d='M3.19866%2011.8354C3.19866%2010.1785%204.54181%208.8354%206.19866%208.8354H7.19866C8.85552%208.8354%2010.1987%2010.1785%2010.1987%2011.8354C10.1987%2013.4923%208.85552%2014.8354%207.19866%2014.8354H6.19866C4.54181%2014.8354%203.19866%2013.4923%203.19866%2011.8354Z'%20fill='white'/%3e%3cpath%20d='M3.19866%2011.8354C3.19866%2010.1785%204.54181%208.8354%206.19866%208.8354H7.19866C8.85552%208.8354%2010.1987%2010.1785%2010.1987%2011.8354C10.1987%2013.4923%208.85552%2014.8354%207.19866%2014.8354H6.19866C4.54181%2014.8354%203.19866%2013.4923%203.19866%2011.8354Z'%20fill='%235C5A57'%20fill-opacity='0.1'/%3e%3c/g%3e%3cpath%20id='Driver'%20d='M1.59905%2021.7534L2.2387%2019.5561L4.4848%2011.8354L2.2387%204.1147L1.59905%201.91743L21.435%2011.8354L1.59905%2021.7534Z'%20fill='%23302F2D'%20stroke='white'%20stroke-width='2'%20stroke-linecap='square'/%3e%3c/g%3e%3c/svg%3e" alt=""><img class="airport-flow__trip-route-point" src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20id='Point'%20cx='6'%20cy='6'%20r='4.5'%20fill='white'%20stroke='%23302F2D'%20stroke-width='3'/%3e%3c/svg%3e" alt=""></span></span></span><span class="slot__trail airport-flow__trip-route-trail" aria-hidden="true"><span><img src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='6.97487'%20height='11.4749'%20viewBox='0%200%206.97487%2011.4749'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Chevron'%20d='M1.23744%201.23744L5.73744%205.73744L1.23744%2010.2374'%20stroke='black'%20stroke-width='1.75'%20stroke-linecap='square'/%3e%3c/svg%3e" alt=""></span></span></span>
+                  <span class="slot airport-flow__trip-slot"><span class="slot__lead"><a class="airport-flow__trip-route-icon" href="https://m.dme.ru/passengers/flight/live-board/" target="_blank" rel="noopener" data-airport-flight-board aria-label="Открыть онлайн-табло Домодедово в новой вкладке"><img src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='20'%20height='19.9535'%20viewBox='0%200%2020%2019.9535'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Airplane_filled'%3e%3cpath%20d='M19.8846%200.115357C19.7089%20-0.060368%2019.1817%20-0.0326219%2018.4973%200.180098C17.1083%200.636037%2015.8419%201.35824%2014.7972%202.38081L9.24795%207.93001C7.85777%209.29222%206.98607%2010.5041%206.31091%2011.8671L2.30431%2011.2947C1.72714%2011.2123%201.14487%2011.4068%200.733117%2011.8196L0%2012.5545L4.62434%2015.3292L7.39894%2019.9535L8.13411%2019.2165C8.5447%2018.8048%208.73787%2018.2241%208.65565%2017.6486L8.08279%2013.6386C9.3123%2013.0032%2010.4265%2012.2146%2011.6719%2011.0416L15.7227%2019.9535L16.4761%2019.1982C16.8764%2018.7969%2017.0706%2018.2342%2017.0031%2017.6714L15.7227%207.00535L15.7205%207.00672L17.5718%205.15541C18.5943%204.11064%2019.364%202.89166%2019.8199%201.50266C20.0326%200.818256%2020.0604%200.291082%2019.8846%200.115357Z'%20fill='white'/%3e%3cpath%20d='M0.745331%203.48353C1.15019%203.07765%201.72035%202.88243%202.28902%202.95498L11.2741%204.10126C10.006%205.22215%208.83061%206.44388%207.75964%207.75449L0%204.23074L0.745331%203.48353Z'%20fill='white'/%3e%3c/g%3e%3c/svg%3e" alt=""></a></span><span class="slot__bodies"><span class="slot__body slot__body--start airport-flow__trip-route-body"><strong><span data-airport-name>Домодедово</span> · <span data-airport-route-summary data-airport-trip-route-summary>21 мин · 18,1 км</span></strong><span class="airport-flow__trip-route-track" aria-hidden="true"><span class="airport-flow__trip-route-track-bar"><i></i><i></i><i></i><i></i><i></i><i></i></span><img class="airport-flow__trip-route-driver" src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='23.6708'%20height='23.6708'%20viewBox='0%200%2023.6708%2023.6708'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='%20'%3e%3cg%20id='Track'%3e%3cpath%20d='M3.19866%2011.8354C3.19866%2010.1785%204.54181%208.8354%206.19866%208.8354H7.19866C8.85552%208.8354%2010.1987%2010.1785%2010.1987%2011.8354C10.1987%2013.4923%208.85552%2014.8354%207.19866%2014.8354H6.19866C4.54181%2014.8354%203.19866%2013.4923%203.19866%2011.8354Z'%20fill='white'/%3e%3cpath%20d='M3.19866%2011.8354C3.19866%2010.1785%204.54181%208.8354%206.19866%208.8354H7.19866C8.85552%208.8354%2010.1987%2010.1785%2010.1987%2011.8354C10.1987%2013.4923%208.85552%2014.8354%207.19866%2014.8354H6.19866C4.54181%2014.8354%203.19866%2013.4923%203.19866%2011.8354Z'%20fill='%235C5A57'%20fill-opacity='0.1'/%3e%3c/g%3e%3cpath%20id='Driver'%20d='M1.59905%2021.7534L2.2387%2019.5561L4.4848%2011.8354L2.2387%204.1147L1.59905%201.91743L21.435%2011.8354L1.59905%2021.7534Z'%20fill='%23302F2D'%20stroke='white'%20stroke-width='2'%20stroke-linecap='square'/%3e%3c/g%3e%3c/svg%3e" alt=""><img class="airport-flow__trip-route-point" src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20id='Point'%20cx='6'%20cy='6'%20r='4.5'%20fill='white'%20stroke='%23302F2D'%20stroke-width='3'/%3e%3c/svg%3e" alt=""></span></span></span><span class="slot__trail airport-flow__trip-route-trail" aria-hidden="true"><span><img src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='6.97487'%20height='11.4749'%20viewBox='0%200%206.97487%2011.4749'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Chevron'%20d='M1.23744%201.23744L5.73744%205.73744L1.23744%2010.2374'%20stroke='black'%20stroke-width='1.75'%20stroke-linecap='square'/%3e%3c/svg%3e" alt=""></span></span></span>
                 </div>
                 <section class="airport-flow__trip-overview" aria-label="Сводка за день">
                   <div class="main-screen__stats airport-flow__trip-stats">
@@ -322,7 +322,7 @@
               <div class="airport-flow__trip-sheet">
                 <header class="airport-flow__trip-header">
                   <h2 class="airport-flow__title">Заказы из Аэропорта</h2>
-                  <p class="airport-flow__description">Домодедово</p>
+                  <p class="airport-flow__description"><span data-airport-name>Домодедово</span></p>
                 </header>
                 <section class="airport-flow__trip-status" aria-label="Статус поездки">
                   <span class="airport-flow__trip-status-icon progress-pulse progress-pulse--animated" aria-hidden="true"></span>
@@ -330,7 +330,7 @@
                 </section>
                 <section class="airport-flow__trip-permit" aria-label="Информация о пропуске">
                   <svg class="icon icon--20" aria-hidden="true"><use href="#info-outline"></use></svg>
-                  <div><h3>Потребуется пропуск</h3><p>Для проезда в синюю зону</p></div>
+                  <div><h3 data-airport-access-title>Потребуется пропуск</h3><p data-airport-access-subtitle>Для проезда в синюю зону</p></div>
                 </section>
                 <div class="airport-flow__home-indicator" aria-hidden="true"></div>
               </div>
@@ -364,7 +364,7 @@
                 <header class="airport-flow__parking-arrival-header">
                   <div class="airport-flow__parking-arrival-heading">
                     <h2>Очередь на заказ</h2>
-                    <p>Домодедово, <span data-airport-parking-name></span></p>
+                    <p><span data-airport-name>Домодедово</span>, <span data-airport-parking-name></span></p>
                   </div>
                   <div class="airport-flow__parking-arrival-controls">
                     <a class="airport-flow__sheet-icon-button" href="https://m.dme.ru/passengers/flight/live-board/" target="_blank" rel="noopener" data-airport-flight-board aria-label="Открыть онлайн-табло Домодедово в новой вкладке"><img src="data:image/svg+xml,%3csvg%20width='18'%20height='22'%20viewBox='0%200%2018%2021.8378'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0%2021.8378V19.6757H18V21.8378H0ZM15.55%2016.3784L0%2011.5946V3.72973L2.4%204.45946L3.6%208.21622L7.05%209.27027L6.175%200L9.05%200.918919L12.25%2010.8919L16.55%2012.2162C16.9667%2012.3604%2017.3125%2012.6216%2017.5875%2013C17.8625%2013.3784%2018%2013.8108%2018%2014.2973C18%2014.9279%2017.7625%2015.482%2017.2875%2015.9595C16.8125%2016.4369%2016.2333%2016.5766%2015.55%2016.3784Z'%20fill='black'/%3e%3c/svg%3e" alt=""></a>
@@ -474,7 +474,7 @@
       <div class="slot airport-flow__queue-exit-header-slot">
         <div class="slot__bodies"><div class="slot__body slot__body--start">
           <h2>Очередь на заказ</h2>
-          <p>Домодедово, <span data-airport-parking-name></span></p>
+          <p><span data-airport-name>Домодедово</span>, <span data-airport-parking-name></span></p>
         </div></div>
       </div>
     </header>
@@ -515,7 +515,7 @@
               <div class="airport-flow__guide-sheet">
                 <header class="airport-flow__guide-sheet-header">
                   <h2 class="airport-flow__title">Заказы из Аэропорта</h2>
-                  <p class="airport-flow__description">Домодедово</p>
+                  <p class="airport-flow__description"><span data-airport-name>Домодедово</span></p>
                 </header>
                 <article class="airport-flow__guide-summary" aria-label="Среднее ожидание" data-airport-wait-summary>
                   <div class="airport-flow__offer-main">
@@ -525,9 +525,9 @@
                 </article>
                 <section class="airport-flow__parking airport-flow__guide-parking" aria-label="Место ожидания">
                   <span class="airport-flow__parking-icon" aria-hidden="true">P</span>
-                  <div><h3>Место ожидания · <span data-airport-parking-name></span></h3><p>Туалет · Мойка · Кафе</p></div>
+                  <div><h3>Место ожидания · <span data-airport-parking-name></span></h3><p data-airport-amenities>Туалет · Мойка · Кафе</p></div>
                 </section>
-                <p class="airport-flow__notice airport-flow__guide-notice"><svg class="icon icon--20" aria-hidden="true"><use href="#info-outline"></use></svg><span>Для проезда на парковку нужен пропуск — оформляется сразу на парковке.</span></p>
+                <p class="airport-flow__notice airport-flow__guide-notice"><svg class="icon icon--20" aria-hidden="true"><use href="#info-outline"></use></svg><span data-airport-access-note>Для проезда на парковку нужен пропуск — оформляется сразу на парковке.</span></p>
                 <footer class="airport-flow__guide-footer">
                   <button class="button button--main button--squircle airport-flow__action" type="button" data-airport-guide-accept><span class="slot button__content"><span class="slot__bodies"><span class="slot__body slot__body--center"><span class="button__label">Поехать с заказами по пути</span><span class="button__subtitle" data-airport-route-summary>21 мин · 18,1 км</span></span></span></span></button>
                   <div class="airport-flow__home-indicator" aria-hidden="true"></div>
@@ -539,7 +539,7 @@
               <div class="airport-flow__sheet-content">
                 <header class="airport-flow__sheet-header">
                   <div>
-                    <h2 class="airport-flow__title">Домодедово</h2>
+                    <h2 class="airport-flow__title"><span data-airport-name>Домодедово</span></h2>
                     <p class="airport-flow__description">Заказы из аэропорта</p>
                   </div>
                   <div class="airport-flow__sheet-controls">
@@ -566,17 +566,17 @@
                   <span class="airport-flow__parking-icon" aria-hidden="true">P</span>
                   <div>
                     <h3>Место ожидания · <span data-airport-parking-name></span></h3>
-                    <p>Туалет · Мойка · Чайхана</p>
+                    <p data-airport-info-amenities>Туалет · Мойка · Чайхана</p>
                   </div>
                 </section>
-                <p class="airport-flow__notice"><svg class="icon icon--20" aria-hidden="true"><use href="#info-outline"></use></svg><span>Для проезда на парковку нужен пропуск — оформляется сразу на парковке.</span></p>
+                <p class="airport-flow__notice"><svg class="icon icon--20" aria-hidden="true"><use href="#info-outline"></use></svg><span data-airport-access-note>Для проезда на парковку нужен пропуск — оформляется сразу на парковке.</span></p>
                 <footer class="airport-flow__footer">
                   <button class="button button--main button--squircle airport-flow__action" type="button" data-airport-conditions><span class="slot button__content"><span class="slot__bodies"><span class="slot__body slot__body--center"><span class="button__label">Поехать с заказами по пути</span><span class="button__subtitle" data-airport-route-summary>21 мин · 18,1 км</span></span></span></span></button>
                   <div class="airport-flow__home-indicator" aria-hidden="true"></div>
                 </footer>
               </div>
             </section>
-            <p class="airport-flow__announcement" data-airport-announcement aria-live="polite">Карта Домодедово загружается</p>
+            <p class="airport-flow__announcement" data-airport-announcement aria-live="polite">Карта <span data-airport-name>Домодедово</span> загружается</p>
           </section>
           </div>
         </div>
